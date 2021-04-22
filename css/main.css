@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+}
+
+.navbar
+{
+    padding: .8rem;
+}
+.navbar-nav li
+{
+    padding-right: 20px;
+}
+.nav-link
+{
+    font-size: 1.1em !important;
+}
+.carousel-inner img
+{
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1
+{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3
+{
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+.btn-primary
+{
+    background-color: #0096c7;
+    border: 1px solid #0096c7;
+}
+
+.btn-primary:hover
+{
+    background-color: #0077b6;
+    border: 1px solid #0077b6;
+}
+
+.fa-credit-card
+{
+    color: #03045e;
+}
+
+.fa-bullhorn
+{
+    color: #d62828;
+}
+
+.fa-credit-card,.fa-bullhorn
+{
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.padding
+{
+    padding-bottom: 2rem;
+}
+.jumbotron
+{
+    width: 97%;
+    margin: 0% auto;
+}
+.smallline
+{
+    border-top: 2px solid #b4b4b4;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fa-phone,.fa-map-marked-alt,.fa-youtube,.fa-linkedin,.fa-twitter,.fa-whatsapp
+{
+    font-size: 2.4em;
+    padding: 0.5rem;
+}
+
+.fa-phone:hover,
+.fa-map-marked-alt:hover,
+.fa-youtube:hover,
+.fa-linkedin:hover,
+.fa-twitter:hover,
+.fa-whatsapp:hover
+{
+    color: lightslategray;
+}
+.fa-phone
+{
+    color: rgb(11, 66, 121);
+}
+.fa-map-marked-alt
+{
+    color: darkgreen;
+}
+.fa-youtube
+{
+    color: #d62828;
+}
+.fa-linkedin
+{
+    color:#03045e;
+}
+.fa-twitter
+{
+    color:deepskyblue;
+}
+.fa-whatsapp
+{
+    color:green;
+}
+
+footer
+{
+    background-color: lightsteelblue;
+    color: #003049;
+}
+footer a
+{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+hr.light
+{
+    border-top: 1px solid #003049;
+    width: 75%;
+    margin: 0% auto;
+
+}
+
+.icons_info
+{
+    margin: 5px;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover,
+  .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+  }
+/* Media Queries */
+@media(max-width: 992px)
+{
+
+}
+@media(max-width:768px)
+{
+    .carousel-caption
+    {
+        top: 45%;
+    }
+    .carousel-caption h1
+    {
+        font-size: 350%;
+    }
+    .carousel-caption h3
+    {
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption .btn
+    {
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+    .electric_man
+    {
+        height:250px;
+        width: 250px;
+    }
+    .jumbotron p
+    {
+        font-size: 100%;
+    }
+
+}
+@media(max-width:576px)
+{
+    .carousel-caption
+    {
+        top: 40%;
+    }
+    .carousel-caption h1
+    {
+        font-size: 150%;
+    }
+    .carousel-caption h3
+    {
+        font-size: 80%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption .btn
+    {
+        font-size: 80%;
+        padding: 4px 8px;
+    }
+
+    .electric_man
+    {
+        height:150px;
+        width: 250px;
+    }
+    .jumbotron p
+    {
+        font-size: 90%;
+    }
+    .jumbotron .btn
+    {
+        font-size: 90%;
+    }
+    
+    footer p
+    {
+        font-size: 90%;
+    }
+    footer h5
+    {
+        font-size: 80%;
+    }
+    .client_icon img
+    {
+        height: 40px;
+        width: 40px;
+    }
+    .fa-phone,.fa-map-marked-alt,.fa-youtube,.fa-linkedin,.fa-twitter,.fa-whatsapp
+    {
+        font-size: 1.4em;
+        padding: 0.5rem;
+    }
+    footer a
+    {
+        font-size: 100%;
+    }
+}
