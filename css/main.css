@@ -68,7 +68,11 @@ html,body
     color: #d62828;
 }
 
-.fa-credit-card,.fa-bullhorn
+.fa-eye
+{
+    color: #0077b6;
+}
+.fa-credit-card,.fa-bullhorn,.fa-eye
 {
     font-size: 4em;
     margin: 1rem;
